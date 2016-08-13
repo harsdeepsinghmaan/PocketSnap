@@ -1,0 +1,541 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		04B40D371D5DE1B200B3C812 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 04B40D361D5DE1B200B3C812 /* main.m */; };
+		04B40D3A1D5DE1B200B3C812 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 04B40D391D5DE1B200B3C812 /* AppDelegate.m */; };
+		04B40D3D1D5DE1B200B3C812 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04B40D3C1D5DE1B200B3C812 /* ViewController.m */; };
+		04B40D401D5DE1B200B3C812 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04B40D3E1D5DE1B200B3C812 /* Main.storyboard */; };
+		04B40D421D5DE1B300B3C812 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04B40D411D5DE1B300B3C812 /* Assets.xcassets */; };
+		04B40D451D5DE1B300B3C812 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04B40D431D5DE1B300B3C812 /* LaunchScreen.storyboard */; };
+		04B40D501D5DE1B300B3C812 /* PocketSnapTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 04B40D4F1D5DE1B300B3C812 /* PocketSnapTests.m */; };
+		04B40D5B1D5DE1B300B3C812 /* PocketSnapUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 04B40D5A1D5DE1B300B3C812 /* PocketSnapUITests.m */; };
+		04B40D6A1D5DECCA00B3C812 /* SignInController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04B40D691D5DECCA00B3C812 /* SignInController.m */; };
+		04B40D6C1D5DF37700B3C812 /* 01 Splash.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 04B40D6B1D5DF37700B3C812 /* 01 Splash.jpg */; };
+		04B40D6F1D5DF99E00B3C812 /* TabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04B40D6E1D5DF99E00B3C812 /* TabBarController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		04B40D4C1D5DE1B300B3C812 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04B40D2A1D5DE1B100B3C812 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 04B40D311D5DE1B200B3C812;
+			remoteInfo = PocketSnap;
+		};
+		04B40D571D5DE1B300B3C812 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04B40D2A1D5DE1B100B3C812 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 04B40D311D5DE1B200B3C812;
+			remoteInfo = PocketSnap;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		04B40D321D5DE1B200B3C812 /* PocketSnap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PocketSnap.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		04B40D361D5DE1B200B3C812 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		04B40D381D5DE1B200B3C812 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		04B40D391D5DE1B200B3C812 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		04B40D3B1D5DE1B200B3C812 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		04B40D3C1D5DE1B200B3C812 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		04B40D3F1D5DE1B200B3C812 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		04B40D411D5DE1B300B3C812 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		04B40D441D5DE1B300B3C812 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		04B40D461D5DE1B300B3C812 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04B40D4B1D5DE1B300B3C812 /* PocketSnapTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PocketSnapTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		04B40D4F1D5DE1B300B3C812 /* PocketSnapTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PocketSnapTests.m; sourceTree = "<group>"; };
+		04B40D511D5DE1B300B3C812 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04B40D561D5DE1B300B3C812 /* PocketSnapUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PocketSnapUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		04B40D5A1D5DE1B300B3C812 /* PocketSnapUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PocketSnapUITests.m; sourceTree = "<group>"; };
+		04B40D5C1D5DE1B300B3C812 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04B40D681D5DECCA00B3C812 /* SignInController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SignInController.h; sourceTree = "<group>"; };
+		04B40D691D5DECCA00B3C812 /* SignInController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SignInController.m; sourceTree = "<group>"; };
+		04B40D6B1D5DF37700B3C812 /* 01 Splash.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "01 Splash.jpg"; sourceTree = "<group>"; };
+		04B40D6D1D5DF99E00B3C812 /* TabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TabBarController.h; sourceTree = "<group>"; };
+		04B40D6E1D5DF99E00B3C812 /* TabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TabBarController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		04B40D2F1D5DE1B200B3C812 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04B40D481D5DE1B300B3C812 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04B40D531D5DE1B300B3C812 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		04B40D291D5DE1B100B3C812 = {
+			isa = PBXGroup;
+			children = (
+				04B40D341D5DE1B200B3C812 /* PocketSnap */,
+				04B40D4E1D5DE1B300B3C812 /* PocketSnapTests */,
+				04B40D591D5DE1B300B3C812 /* PocketSnapUITests */,
+				04B40D331D5DE1B200B3C812 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		04B40D331D5DE1B200B3C812 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				04B40D321D5DE1B200B3C812 /* PocketSnap.app */,
+				04B40D4B1D5DE1B300B3C812 /* PocketSnapTests.xctest */,
+				04B40D561D5DE1B300B3C812 /* PocketSnapUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		04B40D341D5DE1B200B3C812 /* PocketSnap */ = {
+			isa = PBXGroup;
+			children = (
+				04B40D6B1D5DF37700B3C812 /* 01 Splash.jpg */,
+				04B40D381D5DE1B200B3C812 /* AppDelegate.h */,
+				04B40D391D5DE1B200B3C812 /* AppDelegate.m */,
+				04B40D6D1D5DF99E00B3C812 /* TabBarController.h */,
+				04B40D6E1D5DF99E00B3C812 /* TabBarController.m */,
+				04B40D3B1D5DE1B200B3C812 /* ViewController.h */,
+				04B40D3C1D5DE1B200B3C812 /* ViewController.m */,
+				04B40D681D5DECCA00B3C812 /* SignInController.h */,
+				04B40D691D5DECCA00B3C812 /* SignInController.m */,
+				04B40D3E1D5DE1B200B3C812 /* Main.storyboard */,
+				04B40D411D5DE1B300B3C812 /* Assets.xcassets */,
+				04B40D431D5DE1B300B3C812 /* LaunchScreen.storyboard */,
+				04B40D461D5DE1B300B3C812 /* Info.plist */,
+				04B40D351D5DE1B200B3C812 /* Supporting Files */,
+			);
+			path = PocketSnap;
+			sourceTree = "<group>";
+		};
+		04B40D351D5DE1B200B3C812 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				04B40D361D5DE1B200B3C812 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		04B40D4E1D5DE1B300B3C812 /* PocketSnapTests */ = {
+			isa = PBXGroup;
+			children = (
+				04B40D4F1D5DE1B300B3C812 /* PocketSnapTests.m */,
+				04B40D511D5DE1B300B3C812 /* Info.plist */,
+			);
+			path = PocketSnapTests;
+			sourceTree = "<group>";
+		};
+		04B40D591D5DE1B300B3C812 /* PocketSnapUITests */ = {
+			isa = PBXGroup;
+			children = (
+				04B40D5A1D5DE1B300B3C812 /* PocketSnapUITests.m */,
+				04B40D5C1D5DE1B300B3C812 /* Info.plist */,
+			);
+			path = PocketSnapUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		04B40D311D5DE1B200B3C812 /* PocketSnap */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04B40D5F1D5DE1B300B3C812 /* Build configuration list for PBXNativeTarget "PocketSnap" */;
+			buildPhases = (
+				04B40D2E1D5DE1B200B3C812 /* Sources */,
+				04B40D2F1D5DE1B200B3C812 /* Frameworks */,
+				04B40D301D5DE1B200B3C812 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PocketSnap;
+			productName = PocketSnap;
+			productReference = 04B40D321D5DE1B200B3C812 /* PocketSnap.app */;
+			productType = "com.apple.product-type.application";
+		};
+		04B40D4A1D5DE1B300B3C812 /* PocketSnapTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04B40D621D5DE1B300B3C812 /* Build configuration list for PBXNativeTarget "PocketSnapTests" */;
+			buildPhases = (
+				04B40D471D5DE1B300B3C812 /* Sources */,
+				04B40D481D5DE1B300B3C812 /* Frameworks */,
+				04B40D491D5DE1B300B3C812 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				04B40D4D1D5DE1B300B3C812 /* PBXTargetDependency */,
+			);
+			name = PocketSnapTests;
+			productName = PocketSnapTests;
+			productReference = 04B40D4B1D5DE1B300B3C812 /* PocketSnapTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		04B40D551D5DE1B300B3C812 /* PocketSnapUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04B40D651D5DE1B300B3C812 /* Build configuration list for PBXNativeTarget "PocketSnapUITests" */;
+			buildPhases = (
+				04B40D521D5DE1B300B3C812 /* Sources */,
+				04B40D531D5DE1B300B3C812 /* Frameworks */,
+				04B40D541D5DE1B300B3C812 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				04B40D581D5DE1B300B3C812 /* PBXTargetDependency */,
+			);
+			name = PocketSnapUITests;
+			productName = PocketSnapUITests;
+			productReference = 04B40D561D5DE1B300B3C812 /* PocketSnapUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		04B40D2A1D5DE1B100B3C812 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Anil;
+				TargetAttributes = {
+					04B40D311D5DE1B200B3C812 = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = 9J28QKWME7;
+					};
+					04B40D4A1D5DE1B300B3C812 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 04B40D311D5DE1B200B3C812;
+					};
+					04B40D551D5DE1B300B3C812 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 04B40D311D5DE1B200B3C812;
+					};
+				};
+			};
+			buildConfigurationList = 04B40D2D1D5DE1B100B3C812 /* Build configuration list for PBXProject "PocketSnap" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 04B40D291D5DE1B100B3C812;
+			productRefGroup = 04B40D331D5DE1B200B3C812 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				04B40D311D5DE1B200B3C812 /* PocketSnap */,
+				04B40D4A1D5DE1B300B3C812 /* PocketSnapTests */,
+				04B40D551D5DE1B300B3C812 /* PocketSnapUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		04B40D301D5DE1B200B3C812 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04B40D6C1D5DF37700B3C812 /* 01 Splash.jpg in Resources */,
+				04B40D451D5DE1B300B3C812 /* LaunchScreen.storyboard in Resources */,
+				04B40D421D5DE1B300B3C812 /* Assets.xcassets in Resources */,
+				04B40D401D5DE1B200B3C812 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04B40D491D5DE1B300B3C812 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04B40D541D5DE1B300B3C812 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		04B40D2E1D5DE1B200B3C812 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04B40D3D1D5DE1B200B3C812 /* ViewController.m in Sources */,
+				04B40D6A1D5DECCA00B3C812 /* SignInController.m in Sources */,
+				04B40D6F1D5DF99E00B3C812 /* TabBarController.m in Sources */,
+				04B40D3A1D5DE1B200B3C812 /* AppDelegate.m in Sources */,
+				04B40D371D5DE1B200B3C812 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04B40D471D5DE1B300B3C812 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04B40D501D5DE1B300B3C812 /* PocketSnapTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04B40D521D5DE1B300B3C812 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04B40D5B1D5DE1B300B3C812 /* PocketSnapUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		04B40D4D1D5DE1B300B3C812 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 04B40D311D5DE1B200B3C812 /* PocketSnap */;
+			targetProxy = 04B40D4C1D5DE1B300B3C812 /* PBXContainerItemProxy */;
+		};
+		04B40D581D5DE1B300B3C812 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 04B40D311D5DE1B200B3C812 /* PocketSnap */;
+			targetProxy = 04B40D571D5DE1B300B3C812 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		04B40D3E1D5DE1B200B3C812 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04B40D3F1D5DE1B200B3C812 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		04B40D431D5DE1B300B3C812 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04B40D441D5DE1B300B3C812 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		04B40D5D1D5DE1B300B3C812 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		04B40D5E1D5DE1B300B3C812 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		04B40D601D5DE1B300B3C812 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = PocketSnap/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jtech.com.PocketSnap;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		04B40D611D5DE1B300B3C812 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = PocketSnap/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jtech.com.PocketSnap;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		04B40D631D5DE1B300B3C812 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PocketSnapTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = friend.com.PocketSnapTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PocketSnap.app/PocketSnap";
+			};
+			name = Debug;
+		};
+		04B40D641D5DE1B300B3C812 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PocketSnapTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = friend.com.PocketSnapTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PocketSnap.app/PocketSnap";
+			};
+			name = Release;
+		};
+		04B40D661D5DE1B300B3C812 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = PocketSnapUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = friend.com.PocketSnapUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = PocketSnap;
+			};
+			name = Debug;
+		};
+		04B40D671D5DE1B300B3C812 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = PocketSnapUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = friend.com.PocketSnapUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = PocketSnap;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		04B40D2D1D5DE1B100B3C812 /* Build configuration list for PBXProject "PocketSnap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04B40D5D1D5DE1B300B3C812 /* Debug */,
+				04B40D5E1D5DE1B300B3C812 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04B40D5F1D5DE1B300B3C812 /* Build configuration list for PBXNativeTarget "PocketSnap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04B40D601D5DE1B300B3C812 /* Debug */,
+				04B40D611D5DE1B300B3C812 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04B40D621D5DE1B300B3C812 /* Build configuration list for PBXNativeTarget "PocketSnapTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04B40D631D5DE1B300B3C812 /* Debug */,
+				04B40D641D5DE1B300B3C812 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04B40D651D5DE1B300B3C812 /* Build configuration list for PBXNativeTarget "PocketSnapUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04B40D661D5DE1B300B3C812 /* Debug */,
+				04B40D671D5DE1B300B3C812 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 04B40D2A1D5DE1B100B3C812 /* Project object */;
+}
